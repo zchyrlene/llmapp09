@@ -31,6 +31,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+
 app.include_router(ai_router)
 
 if __name__ == "__main__":
